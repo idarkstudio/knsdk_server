@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GameCommon\FigNetCommon.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="FigNet">
+      <HintPath>..\Plugins\FigNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Standart.Hash.xxHash">
+      <HintPath>..\Plugins\Standart.Hash.xxHash.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

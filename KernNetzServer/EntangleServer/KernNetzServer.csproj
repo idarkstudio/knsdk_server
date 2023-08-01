@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <StartupObject>EntangleServer.Program</StartupObject>
+	<!--<ServerGarbageCollection>true</ServerGarbageCollection>-->
+	<AotMode>Normal</AotMode>
+	<ConcurrentGarbageCollection>true</ConcurrentGarbageCollection>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ENet-CSharp" Version="2.4.8" />
+    <PackageReference Include="LiteNetLib" Version="0.9.5.2" />
+    <PackageReference Include="VIEApps.Components.WebSockets" Version="10.5.2205.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Entangle\KernNetz.csproj" />
+    <ProjectReference Include="..\GameCommon\FigNetCommon.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ENetProvider">
+      <HintPath>..\Plugins\ENetProvider.dll</HintPath>
+    </Reference>
+    <Reference Include="FigNet">
+      <HintPath>..\Plugins\FigNet.dll</HintPath>
+    </Reference>
+    <Reference Include="FigNetCounters">
+      <HintPath>..\Plugins\FigNetCounters.dll</HintPath>
+    </Reference>
+    <Reference Include="LiteNetLibProvider">
+      <HintPath>..\Plugins\LiteNetLibProvider.dll</HintPath>
+    </Reference>
+    <Reference Include="Standart.Hash.xxHash">
+      <HintPath>..\Plugins\Standart.Hash.xxHash.dll</HintPath>
+    </Reference>
+    <Reference Include="WebSocketCoreProvider">
+      <HintPath>..\Plugins\WebSocketCoreProvider.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="AppKeys.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="ServerConfig.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="test.pfx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
