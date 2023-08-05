@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Entangle\KernNetz.csproj" />
+    <ProjectReference Include="..\KernNetz\KernNetz.csproj" />
     <ProjectReference Include="..\GameCommon\FigNetCommon.csproj" />
   </ItemGroup>
 

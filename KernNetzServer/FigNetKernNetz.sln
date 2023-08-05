@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KernNetzServer", "EntangleServer\KernNetzServer.csproj", "{C4BC8900-C04C-4C4A-A8F7-66710F4BEA02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KernNetzServer", "KernNetzServer\KernNetzServer.csproj", "{C4BC8900-C04C-4C4A-A8F7-66710F4BEA02}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FigNetCommon", "GameCommon\FigNetCommon.csproj", "{067A97BF-FC3F-4F8B-B95D-2E2FD2ECBFED}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KernNetz", "Entangle\KernNetz.csproj", "{70D4C1D1-1D44-4D62-9C0B-85D4F2B573BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KernNetz", "KernNetz\KernNetz.csproj", "{70D4C1D1-1D44-4D62-9C0B-85D4F2B573BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
