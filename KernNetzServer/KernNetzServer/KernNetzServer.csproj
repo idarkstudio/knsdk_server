@@ -11,8 +11,8 @@
 
   <ItemGroup>
     <PackageReference Include="ENet-CSharp" Version="2.4.8" />
-    <PackageReference Include="LiteNetLib" Version="0.9.5.2" />
-    <PackageReference Include="VIEApps.Components.WebSockets" Version="10.5.2205.6" />
+    <PackageReference Include="LiteNetLib" Version="1.1.0" />
+    <PackageReference Include="VIEApps.Components.WebSockets" Version="10.8.2309.1" />
   </ItemGroup>
 
   <ItemGroup>
